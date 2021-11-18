@@ -26,8 +26,8 @@ class SnowflakeProvider extends ServiceProvider
 
     public function boot()
     {
-        $this->publishes([__DIR__ . '/../config/snowflake.php' => config_path('snowflake.php')], 'snowflake');
         if ($this->app->runningInConsole()) {
+            $this->publishes([__DIR__ . '/../config/snowflake.php' => config_path('snowflake.php')], 'snowflake');
             $this->commands([
                 Command::class,
             ]);
