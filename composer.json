@@ -1,0 +1,22 @@
+{
+    "name": "imdgr886/snowflake",
+    "description": "",
+    "authors": [
+        {
+            "name": "imdgr886",
+            "email": "thrall.chen@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Imdgr886\\Snowflake\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Imdgr886\\Snowflake\\SnowflakeProvider"
+            ]
+        }
+    }
+}
