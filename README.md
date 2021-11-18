@@ -1,4 +1,11 @@
-Simple snowflake for laravel.
+Simple snowflake for laravel. Support at least 200 years.
+
+
+This library removed **Worker ID**. Instead, use redis process sequence index.
+
+default requements:
+
+-   `redis`
 
 # QUIKE START
 
