@@ -18,5 +18,10 @@
                 "Imdgr886\\Snowflake\\SnowflakeProvider"
             ]
         }
+    },
+    "scripts": {
+        "post-package-install": [
+            "@php artisan vendor:publish --tag=snowflake"
+        ]
     }
 }
