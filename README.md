@@ -11,7 +11,7 @@ default requements:
 
 ## INSTALL
 
-`composer install imdgr886/snowflake`
+`composer require imdgr886/snowflake`
 
 ## USAGE
 
